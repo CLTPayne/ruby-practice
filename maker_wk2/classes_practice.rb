@@ -234,6 +234,7 @@ end
 
 gatwick = Airport.new
 my_special_plane = Plane.new
+gatwick.hangar_report
 gatwick.land(my_special_plane)
 gatwick.hangar_report
 gatwick.take_off(my_special_plane)
